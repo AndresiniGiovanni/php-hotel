@@ -63,7 +63,7 @@
                 <div><?php echo $item['description'] ?></div>
                 <div>Parcheggio <?php echo $item['parking'] ?></div>
                 <div>Voto <?php echo $item['vote'] ?>/5</div>
-                <div><?php echo $item['distance_to_center'] ?> km</div>
+                <div>Distanza dal centro: <?php echo $item['distance_to_center'] ?> km</div>
              </div>
          <?php }
              ?>
